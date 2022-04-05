@@ -1,0 +1,18 @@
+public (void on break:){
+    get(string){
+        at 113 of "GIT(ASSESS)"
+          get(scar)
+          scar.intro[s]
+          scar.outro[a]
+          scar.list(embed with a,b,s)
+          system.event(e for EventArgs)
+    }
+    api.get "timecounter"
+    api.research
+    set api.default to "timecounter"
+    api.default.start
+    repeat utl <api.default.value = 60>{
+        System.Window.HTML.id("timer", api.default.value)
+    }
+    System.Window.HTML.id("timer", "Timer Complete.")
+}
